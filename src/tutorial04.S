@@ -185,7 +185,7 @@ main_loop:
         cbi VPORTB_OUT, 5
 
     button_released:
-        sbi VPORTB_OUT, 5
+        ; sbi VPORTB_OUT, 5
     // Write your code for Ex 4.6 above this line.
 
 
