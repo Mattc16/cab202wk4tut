@@ -183,9 +183,11 @@ main_loop:
 
     button_pressed:
         cbi VPORTB_OUT, 5
+        rjmp end
 
     button_released:
-        ; sbi VPORTB_OUT, 5
+        sbi VPORTB_OUT, 5
+    end:
     // Write your code for Ex 4.6 above this line.
 
 
